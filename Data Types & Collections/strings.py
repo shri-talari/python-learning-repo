@@ -35,19 +35,6 @@ Finds the shortest word.
 
 You should handle edge cases such as multiple spaces between words.'''
 
-'''Q2. Sentence Analysis - Word Count and Length
-
-Concepts Tested: Variables, Data Types, Operators, Control Structures, String Manipulation, String Methods
-Problem:
-Create a Python program that asks the user for a sentence (string) and:
-
-Counts the number of words in the sentence.
-
-Finds the length of the longest word.
-
-Finds the shortest word.
-
-You should handle edge cases such as multiple spaces between words.'''
 
 sent = input("Enter a sentence : ")
 words = sent.strip().split()
@@ -69,6 +56,7 @@ print("")
 print(f"Number of words in the sentence : {count}")
 print(f"Longest word in the sentence : {longest} - {len(longest)} letters")
 print(f"Shortest of word in the sentence : {shortest} - {len(shortest)} letters")
+
 
 '''Q3. String Conversion and Comparison
 

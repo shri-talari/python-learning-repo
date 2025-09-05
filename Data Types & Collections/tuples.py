@@ -90,6 +90,7 @@ for name, rating in records:
     if rating >= 8:
         print(name, "|", rating)
 
+
 '''Q3. Tuple-based Data Cleaner
 
 Input: Tuple of mixed values: ("45", 23, "0", 0, "18", 9, "hello", "7")

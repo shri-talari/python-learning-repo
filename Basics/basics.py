@@ -1,6 +1,6 @@
-''' This file contains questions based on concepts of comments, variables, data types, casting and operators '''
 
-''' Q1. Write a program that asks for the user's weight (in kilograms) and height (in meters). Then calculate their BMI (Body Mass Index).
+'''Q1. Write a program that asks for the user's weight (in kilograms) and height (in meters). 
+Then calculate their BMI (Body Mass Index).
 Formula: BMI = weight / (height ** 2), Print the result rounded to two decimal places.'''
 
 weight = float(input("Enter your weight in Kg : "))
@@ -10,7 +10,7 @@ BMI = weight / (height ** 2)
 
 print(f"Your BMI is {BMI:.2f}")
 
-''' Q2. Write a program that converts the user's age from years into months, days, and hours.
+'''Q2. Write a program that converts the user's age from years into months, days, and hours.
 
 Formulae:
 

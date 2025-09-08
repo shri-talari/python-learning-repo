@@ -1,6 +1,5 @@
 '''Q1. Grade Calculation with Conditions
 
-Concepts Tested: Variables, Data Types, Operators, Control Structures (if-else), Casting
 Problem:
 Write a Python program that takes a student's score as input (integer), checks the score, and prints the corresponding grade based on the following scale:
 
@@ -16,8 +15,8 @@ If the input is not a valid integer, prompt the user again until a valid score i
 
 while True:
     score_input = input("Enter your exam score: ")
-    
-    if score_input.isdigit():  
+
+    if score_input.isdigit():
         score = int(score_input)
         if 0 <= score <= 100:
             if score >= 90:
@@ -36,7 +35,6 @@ while True:
 
 ''' Q2. Time Conversion
 
-Concepts Tested: Variables, Data Types, Casting, Control Structures
 Problem:
 Create a program that converts a given time in seconds into hours, minutes, and seconds. 
 The input should be an integer representing the number of seconds. 
@@ -54,7 +52,6 @@ print(f"{total_seconds} seconds is equal to {hours} hours, {minutes} minutes, an
 
 '''Q3.Multiplication Table Generator
 
-Concepts Tested: Variables, Data Types, Operators, Control Structures (for-loop, while-loop), Casting
 Problem:
 Write a program that generates the multiplication table for a given number. 
 The user should input a number, and the program will output its multiplication table from 1 to 10.'''
@@ -68,7 +65,6 @@ for i in range(1, 11):
 
 '''Q4.Fibonacci Sequence
 
-Concepts Tested: Variables, Data Types, Operators, Control Structures (for-loop, while-loop)
 Problem:
 Write a Python program that generates the first n Fibonacci numbers, where n is provided by the user. 
 The Fibonacci sequence starts with 0 and 1, and each subsequent number is the sum of the previous two numbers. 
@@ -83,17 +79,16 @@ elif num == 1:
 elif num == 2:
     print([0, 1])
 else:
-    fibonacci_sequence = [0, 1] 
+    fibonacci_sequence = [0, 1]
 
     for i in range(2, num):
-        next_fib = fibonacci_sequence[-1] + fibonacci_sequence[-2] 
+        next_fib = fibonacci_sequence[-1] + fibonacci_sequence[-2]
         fibonacci_sequence.append(next_fib)
-    
+
     print(fibonacci_sequence)
 
 '''Q5.Currency Converter
 
-Concepts Tested: Variables, Data Types, Operators, Control Structures (if-else), Casting
 Problem:
 Write a program that converts an amount in INR (Indian Rupees) into USD and GBP (user input) based on fixed conversion rates. Assume the conversion rates are as follows:
 
@@ -111,5 +106,3 @@ gbp = round(inr / 103.00, 2)
 
 print(f"The Amount {inr} INR is {usd} USD")
 print(f"The Amount {inr} INR is {gbp} GBP")
-
-

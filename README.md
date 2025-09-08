@@ -1,10 +1,10 @@
-# 🐍 Python Concept-Based Practice
+# Python Concept-Based Practice
 
 A cumulative Python learning repository where I solve problems based on every concept I learn. Each section builds on top of the previous, increasing in complexity and depth.
 
 ---
 
-## 🚀 Why This Repo?
+## Why This Repo?
 
 ✅ Reinforce concepts through hands-on problems  
 ✅ Cumulative learning — problems combine all prior concepts  
@@ -13,13 +13,16 @@ A cumulative Python learning repository where I solve problems based on every co
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
-| Folder | Concepts Covered | Problems |
+This is the main branch the repo has **4 branches**, each containing python file with folder containing commented questions and solution codes in python files and a readme.md file consisting information about the branch such as all concepts and question problems based on each concept.
+
+| Branch | Concepts Covered | Problems |
 |--------|------------------|----------|
-| `basics/` | Variables, Data Types, Casting, Operators | 5 |
-| `control_structures/` | + Conditionals, Loops, Break/Continue | 5 |
-| `data_types_collections/` | + Strings, Lists, Tuples, Sets, Dicts | 15 |
+| `basics/` | Variables, Data Types, Casting, Operators | 3 |
+| `control-structures/` | + Conditionals, Loops, Break/Continue | 5 |
+| `data-types-collections/` | + Strings, Lists, Tuples, Sets, Dicts | 15 |
+| `functions-and-exceptions/` | + Functions, Exception handling | 10 |
 
 ---
 

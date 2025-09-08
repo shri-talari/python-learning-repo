@@ -1,4 +1,4 @@
-# Functions and Exceptions – Modular Code & Error Handling
+# Basics of python programming
 
 This section introduces **Basics of python programming**
 

@@ -121,6 +121,105 @@ Returns both the set and its length.
 
 ### ⚠️ Exceptions
 
+**Q1. Student Grade Calculator with Error Handling**
+
+Problem:
+Write a program that accepts marks of N students (out of 100) from the user and stores them in a dictionary with student names as keys and marks as values.
+
+If the user enters marks outside 0–100, raise and handle a ValueError.
+
+If the user enters a non-integer value, handle the exception and prompt again.
+
+Finally, display:
+
+Highest scorer (name + marks)
+
+Lowest scorer (name + marks)
+
+Average score
+
+
+
+
+**Q2. Safe Division with Multiple Exceptions**
+
+Problem:
+Write a function safe_divide(a, b) that:
+
+Divides two numbers a and b.
+
+Handles the following exceptions:
+
+ZeroDivisionError: print "Cannot divide by zero!"
+
+ValueError: if the inputs cannot be converted to floats.
+
+Any other exception: print "Unexpected error occurred!".
+
+Use a loop to allow the user to keep entering numbers until they enter "exit".
+
+
+
+
+**Q3. Unique Word Counter with Error Handling**
+
+Problem:
+Write a program that takes a sentence as input, splits it into words, and counts the frequency of each unique word using a dictionary.
+
+Handle the case when the user inputs an empty string (ValueError).
+
+Handle numbers inside the sentence by converting them to strings and still counting.
+
+Ignore punctuation marks.
+
+
+
+
+**Q4. Shopping Cart Manager**
+
+Problem:
+Create a shopping cart system using a dictionary {item: price} and a list for purchased items.
+
+Ask the user to enter items and their price.
+
+If the price entered is invalid (non-numeric), handle the exception and re-ask.
+
+If the user tries to purchase an item not in the dictionary, handle KeyError.
+
+Allow the user to checkout and display:
+
+Items purchased (as a tuple)
+
+Total amount
+
+Unique items purchased (as a set)
+
+
+
+
+**Q5. ATM Simulator**
+
+Problem:
+Simulate a simple ATM system.
+
+The account starts with balance = 1000.
+
+User can:
+
+Deposit money
+
+Withdraw money
+
+Check balance
+
+Exit
+
+Handle exceptions:
+
+Non-integer deposit/withdraw amount (ValueError).
+
+Withdrawal amount greater than balance (Exception).
+
 
 
 ---

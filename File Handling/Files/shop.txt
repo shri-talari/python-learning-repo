@@ -1,0 +1,5 @@
+apple,70
+banana,40
+milk,30
+bread,40
+eggs,45

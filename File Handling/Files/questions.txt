@@ -1,0 +1,3 @@
+What is capital of India ?|Mumbai,Delhi,Chennai|Delhi
+What is 50 * 15 ?|1000,500,750|750
+What is national bird of India ?|peacock,eagle,swan|peacock

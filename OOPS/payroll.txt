@@ -1,0 +1,4 @@
+Alice,1,3000
+Bob,2,450
+Charlie,3,1000
+Darwin,4,2500

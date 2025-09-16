@@ -1,0 +1,21 @@
+University Records
+=================================
+
+Students:
+Name: Alice, Age: 20, Roll No: S101
+Marks: {'Math': 90, 'Science': 80, 'History': 85}
+Average Marks: 85.00
+Highest Scoring Subject: Math with score: 90
+
+Name: Bob, Age: 21, Roll No: S102
+Marks: {'Math': 70, 'Science': 65, 'History': 80}
+Average Marks: 71.67
+Highest Scoring Subject: History with score: 80
+
+Professors:
+Name: Dr. Smith, Age: 45, Employee ID: P1001
+Courses Taught: Math 101, Physics 202
+
+Name: Dr. Johnson, Age: 50, Employee ID: P1002
+Courses Taught: Computer Science 301, Chemistry 302
+

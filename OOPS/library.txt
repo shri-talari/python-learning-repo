@@ -1,0 +1,4 @@
+Atomic Habits,James Clear,5
+Deep Work,Cal Newport,10
+The 48 Laws of Power,Robert Greene,10
+Clean Code,Robert.C.Martin,8

@@ -1,7 +1,0 @@
-Deposited 3000Rs into, Account 102 and Balance 8000
-Final Balance for Account 102 : 8000
-Insufficient Balance! Withdrawal Failed.
-Deposited 2000Rs into, Account 103 and Balance 10000
-Final Balance for Account 103 : 10000
-5000Rs Withdrawn successfully from Account 101
-Final Balance for Account 101 : 5000

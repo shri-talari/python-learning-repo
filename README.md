@@ -1,143 +1,77 @@
-# Object-Oriented Programming (OOPS) - Building Real-World Models
+# Python Modules & Libraries - Powering Real-World Applications
 
-This section introduces **Object-Oriented Programming (OOPS)** which is used to design programs using real-world concepts such as objects, classes, inheritance, polymorphism, and more.  
-It builds upon all previous concepts (Basics, Control Structures, Data Types & Collections, Functions, Exception Handling, and File Handling).
+This section introduces **Python’s Standard Library modules** which provide built-in functionality to interact with the operating system, handle data formats, manage time, and more.  
+It builds upon all previous concepts (Basics, Control Structures, Data Types & Collections, Functions, Exception Handling, File Handling, and OOPS).
 
 ---
 
 ## Concepts Covered
 
-- Classes and Objects
-- Constructors and Destructors
-- Inheritance (Single, Multiple, Multilevel, Hierarchical)
-- Polymorphism (Overloading, Overriding, Duck Typing)
-- Encapsulation & Abstraction
-- Magic Methods & Operator Overloading
+- Using and Importing Modules  
+- Commonly Used Python Standard Libraries:  
+  - `os`  
+  - `sys`  
+  - `datetime`  
+  - `json`  
+  - `pickle`  
+  - (others can be added as explored)  
 
 ---
 
 ## Cumulative Learning
 
-Each problem requires knowledge from:
-
-- Basics
-- Control Structures
-- Data Types & Collections
-- Functions & Exception Handling
-- File Handling
-- - Object-Oriented Programming (OOPS)
-
----
-
-## Problems Questions Solved (5 per topic)
+Each problem requires knowledge from:  
+- Basics  
+- Control Structures  
+- Data Types & Collections  
+- Functions & Exception Handling  
+- File Handling  
+- Object-Oriented Programming (OOPS)  
+- + Modules & Libraries  
 
 ---
 
-### OOPS
+## Problems Questions Solved (2–4 per module)
 
-**Q1. Bank Account System (Encapsulation + Exception Handling)**
+---
+
+### OS Module
+  
+**Q1. File Organizer**  
+Problem: Write a script to organize files in a folder into subfolders based on file extension.  
+Example: all .txt files go into TextFiles, all .jpg files into Images.
+
+Handle errors:
+
+Non-existing directory (FileNotFoundError).
+
+Permission errors.
+
+Ensure it doesn’t move system/hidden files accidentally.
+
+
+**Q2.Backup and Restore Utility (OOP + os + shutil)**
 
 Problem:
+Design a backup tool:
 
-Create a BankAccount class with:
+Class BackupManager:
 
-Attributes: account_number, holder_name, balance (private).
+backup(source_dir, backup_dir) → copies all files.
 
-Methods:
+restore(backup_dir, restore_dir) → restores files.
 
-deposit(amount) → adds money (handle invalid inputs).
+Use os.walk() to handle nested folders.
 
-withdraw(amount) → subtracts money (raise exception if insufficient funds).
+Add error handling for:
 
-get_balance() → returns balance.
+Missing source directory.
 
-Create multiple accounts and allow transactions.
+Permission issues.
 
-Store transaction history in a file.
+Maintain a log file of operations.
 
----
-
-**Q2. Library Management System (Inheritance + File Handling)**
-
-Problem:
-
-Create a base class Book with attributes: title, author, copies.
-
-Create a derived class Library with:
-
-Method to add_book(), borrow_book(), return_book().
-
-Store book records in a file (library.txt).
-
-Handle:
-
-Borrowing unavailable books (ValueError).
-
-Adding invalid copies (negative numbers).
-
-Use dictionary internally {title: copies}.
 
 ---
 
-**Q3. Employee Payroll System (Polymorphism + Functions + File Handling)**
 
-Problem:
-
-Create a base class Employee with attributes: name, id, salary.
-
-Derive classes:
-
-FullTimeEmployee → salary = fixed monthly.
-
-PartTimeEmployee → salary = hours × rate.
-
-Override a method calculate_salary().
-
-Write payroll results to payroll.txt.
-
-Display: highest salary, lowest salary, average salary.
-
----
-
-**Q4. Online Shopping System (Abstraction + Collections + Exception Handling)**
-
-Problem:
-
-Define an abstract class Product with abstract method get_price().
-
-Derive classes:
-
-Electronics, Clothing, Grocery → each returns its own price with possible discounts.
-
-Create a Cart class that:
-
-Adds products (store in list).
-
-Displays unique items (set).
-
-Stores cart summary in a file (cart.txt).
-
-Handle invalid inputs and missing products.
-
----
-
-**Q5.University System (OOP Integration Challenge)**
-Problem:
-
-Create classes:
-
-Person (base) → attributes: name, age.
-
-Student(Person) → attributes: roll_no, marks (dict of subject: score).
-
-Professor(Person) → attributes: employee_id, courses (tuple).
-
-Functions:
-
-For students → calculate average, highest subject.
-
-For professors → display courses.
-
-Store all records in a file (university.txt).
-
-Handle exceptions: invalid marks, missing data, file errors.

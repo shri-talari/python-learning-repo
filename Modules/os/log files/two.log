@@ -1,0 +1,13 @@
+INFO : This is example log file
+
+INFO : This is log file 2 which contains logs
+
+WARNING : Example Warning !
+
+INFO : Warning means something is not recommended but has been done
+
+WARNING : Example Warning !
+
+ERROR : Example Error !
+
+INFO : Error means something went wrong and failed

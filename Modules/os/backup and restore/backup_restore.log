@@ -1,0 +1,8 @@
+Backed up: C:\OFFICE\Testing\Audio\audio-sample.mp3 to C:\OFFICE\Testing\backup\Audio\audio-sample.mp3
+Backed up: C:\OFFICE\Testing\Documents\sample-pdf.pdf to C:\OFFICE\Testing\backup\Documents\sample-pdf.pdf
+Backed up: C:\OFFICE\Testing\Images\sample-image.jpg to C:\OFFICE\Testing\backup\Images\sample-image.jpg
+Backed up: C:\OFFICE\Testing\Videos\sample-video.mp4 to C:\OFFICE\Testing\backup\Videos\sample-video.mp4
+Restored: C:\OFFICE\Testing\backup\Audio\audio-sample.mp3 to C:\OFFICE\Testing\restore\Audio\audio-sample.mp3
+Restored: C:\OFFICE\Testing\backup\Documents\sample-pdf.pdf to C:\OFFICE\Testing\restore\Documents\sample-pdf.pdf
+Restored: C:\OFFICE\Testing\backup\Images\sample-image.jpg to C:\OFFICE\Testing\restore\Images\sample-image.jpg
+Restored: C:\OFFICE\Testing\backup\Videos\sample-video.mp4 to C:\OFFICE\Testing\restore\Videos\sample-video.mp4

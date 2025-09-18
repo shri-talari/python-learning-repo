@@ -1,0 +1,5 @@
+Log Analysis Summary
+====================
+ERROR count: 2
+WARNING count: 3
+INFO count: 6

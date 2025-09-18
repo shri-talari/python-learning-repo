@@ -10,11 +10,10 @@ It builds upon all previous concepts (Basics, Control Structures, Data Types & C
 - Using and Importing Modules  
 - Commonly Used Python Standard Libraries:  
   - `os`  
-  - `sys`  
+  - `shutil`  
   - `datetime`  
   - `json`  
-  - `pickle`  
-  - (others can be added as explored)  
+  - `pickle`   
 
 ---
 
@@ -35,7 +34,7 @@ Each problem requires knowledge from:
 
 ---
 
-### OS Module
+### OS and Shutil Module
   
 **Q1. File Organizer**  
 Problem: Write a script to organize files in a folder into subfolders based on file extension.  
@@ -70,6 +69,20 @@ Missing source directory.
 Permission issues.
 
 Maintain a log file of operations.
+
+**Q3. Log File Analyzer (File Handling + os + Exception Handling)**
+
+Problem:
+
+Given a folder containing multiple log files (.log), write a program to:
+
+Read all .log files.
+
+Count occurrences of “ERROR”, “WARNING”, and “INFO”.
+
+Write a summary report into summary.txt.
+
+Handle: missing log files, empty files, and encoding errors.
 
 
 ---

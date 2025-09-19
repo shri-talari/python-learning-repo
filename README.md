@@ -12,8 +12,7 @@ It builds upon all previous concepts (Basics, Control Structures, Data Types & C
   - `os`  
   - `shutil`  
   - `datetime`  
-  - `json`  
-  - `pickle`   
+  - `json`    
 
 ---
 
@@ -131,3 +130,13 @@ Date
 Amount
 
 Store the extracted data into a dictionary list and print it.
+
+### JSON Module
+
+**Q1. Student Marks Database** 
+
+Write a program that: 
+Maintains a students.json file containing student data in this format: 
+[ {"name": "Rahul", "marks": 85}, {"name": "Neha", "marks": 92} ] 
+Allows the user to: Add a new student with marks. View all students. 
+Ensure data is updated and saved back in the JSON file.'

@@ -1,0 +1,4 @@
+[2025-09-13 12:45:22] INFO: User login successful
+[2025-09-13 12:46:10] ERROR: Database connection failed
+[2025-09-13 12:48:55] WARNING: Low disk space
+[2025-09-13 12:50:01] ERROR: Timeout while processing request

@@ -87,4 +87,47 @@ Handle: missing log files, empty files, and encoding errors.
 
 ---
 
+### Regular Expression (re) Module
 
+**Q1. Log File Analyzer (Find Errors)**
+
+Suppose you are given a server log file server.log containing lines like:
+Write a program that:
+
+Reads the log file.
+
+Uses regex to extract all ERROR messages.
+
+Prints them along with the timestamps.
+
+
+**Q2. Password Strength Checker**
+
+Write a program that asks the user to enter a password and checks if it is strong using regex rules:
+
+Minimum 8 characters
+
+At least one uppercase letter
+
+At least one lowercase letter
+
+At least one digit
+
+At least one special character (@, #, $, %, &, *)
+
+If password fails, raise an exception and show which rule(s) are violated.
+
+
+
+**Q3. Data Extraction – Invoice Parser**
+
+You are given a string containing multiple invoices in this format:
+Write a Python program using regex that extracts:
+
+Invoice number
+
+Date
+
+Amount
+
+Store the extracted data into a dictionary list and print it.

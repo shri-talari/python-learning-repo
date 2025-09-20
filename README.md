@@ -140,3 +140,27 @@ Maintains a students.json file containing student data in this format:
 [ {"name": "Rahul", "marks": 85}, {"name": "Neha", "marks": 92} ] 
 Allows the user to: Add a new student with marks. View all students. 
 Ensure data is updated and saved back in the JSON file.'
+
+**Q2. JSON Log Analyzer**
+
+Suppose you have a JSON log file logs.json:
+Write a program that:
+
+Reads the log file.
+
+Extracts all logs with level = ERROR.
+
+Prints them neatly.
+
+**Q3. Product Catalog Manager**
+
+You are building a small e-commerce catalog stored in products.json:
+Write a program that allows the user to:
+
+View all products.
+
+Search for a product by name using case-insensitive search.
+
+Update stock when a product is sold.
+
+Save updated data back to the JSON file.

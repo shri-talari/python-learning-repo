@@ -1,0 +1,6 @@
+[
+  {"time": "2025-09-13 10:30", "level": "INFO", "message": "System started"},
+  {"time": "2025-09-13 10:45", "level": "ERROR", "message": "Database not found"},
+  {"time": "2025-09-13 11:00", "level": "WARNING", "message": "Memory usage high"},
+  {"time": "2025-09-13 11:10", "level": "ERROR", "message": "Timeout occurred"}
+]
